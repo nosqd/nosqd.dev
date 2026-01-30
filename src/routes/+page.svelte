@@ -57,7 +57,7 @@
 
 		<section class="mt-4 mb-4 flex flex-col gap-2">
 			<a class="text-2xl text-purple-200" href="#memes" id="memes"># memes</a>
-			<div class="grid w-full grid-cols-4 gap-4">
+			<div class="grid w-full gap-4 sm:grid-cols-2 md:grid-cols-4">
 				{#each memes as meme (meme)}
 					<img src={meme} alt="meme" width="250" />
 				{/each}
