@@ -1,7 +1,0 @@
-@import 'tailwindcss';
-@plugin '@tailwindcss/typography';
-
-body {
-    background-color: #181818;
-    color: #fff;
-}

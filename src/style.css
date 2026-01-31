@@ -1,0 +1,175 @@
+body {
+    color: #fff;
+    background-color: #181818;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+header {
+    display: flex;
+    height: 64px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: oklch(49.6% .265 301.924);
+}
+
+.hin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hin>h1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.hn {
+    margin-left: 32px;
+}
+
+.hl {
+    color: #fff;
+    font-size: 16px;
+
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+@media (min-width: 768px) {
+    .hin {
+        min-width: 672px;
+    }
+}
+
+@media (min-width: 640px) {
+    .hin {
+        min-width: 0;
+    }
+}
+
+/*main*/
+main {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.mi {
+    display: flex;
+    max-width: 896px;
+    flex-direction: column;
+    align-items: start;
+    justify-self: start;
+    padding: 32px;
+}
+
+@media (min-width: 768px) {
+    .mi {
+        min-width: 672px;
+    }
+}
+
+@media (min-width: 640px) {
+    .mi {
+        min-width: 0;
+    }
+}
+
+.mt {
+    font-size: 16px;
+}
+
+.ms {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.msl {
+    font-size: 24px;
+    color: oklch(90.2% .063 306.703);
+}
+
+.mscl {
+    color: oklch(90.2% .063 306.703);
+}
+
+
+/*footer*/
+footer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: oklch(38.1% .176 304.987);
+}
+
+.fi {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 16px;
+
+}
+
+@media (min-width: 768px) {
+    .fi {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 640px) {
+    .fi {
+        font-size: 14px;
+        min-width: 0;
+    }
+}
+
+.sep {
+    text-align: center;
+    line-height: 0;
+    font-weight: 900;
+}
+
+.memegrid {
+    display: grid;
+    width: 100%;
+    gap: 4px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+}
+
+.memegrid>img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 800px) {
+    .memegrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+@media (max-width: 500px) {
+    .memegrid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
