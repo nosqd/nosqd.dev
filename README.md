@@ -1,6 +1,7 @@
 # nosqd.dev
+> member of 14kb club btw (not counting the memes)
 My personal website!
 
-You can reuse the code of this site under the MIT license. However, I reserve all rights for non-trivial textual content (e.g. all markdown files of the blog, as well as HTML files generated from them; this includes code snippets).
+You can reuse the code of this site under the MIT license. However, I reserve all rights for non-trivial textual content.
 
 Heavily inspired by: https://github.com/purplesyringa/site

@@ -24,28 +24,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
         with:
-          node-version: "20"
+          go-version: 1.25.5
 
-      - name: Install pnpm
-        run: npm install -g pnpm
+      - name: Install dependencies
+        run: go get
 
-      - name: Install pnpm
-        run: pnpm install
-
-      - name: Build the static site
-        run: pnpm run build
-        env:
-          NODE_ENV: production
+      - name: Preprocess index.html
+        run: go run .
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "build"
+          path: "public"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
