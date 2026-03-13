@@ -3,7 +3,7 @@
 	import { page } from '$app/state';
 </script>
 
-<header class="flex h-16 w-screen items-center justify-center bg-purple-700">
+<header class="flex h-16 items-center justify-center bg-purple-700">
 	<div class="flex flex-row items-center sm:min-w-0 md:min-w-2xl">
 		<h1 class="text-3xl font-black">nosqd</h1>
 		<nav class="ml-8">

@@ -15,9 +15,9 @@
 	}
 </script>
 
-<main class="flex w-screen flex-wrap items-center justify-center">
+<main class="flex flex-wrap items-center justify-center">
 	<div class="flex max-w-4xl flex-col items-start justify-start p-4 sm:min-w-0 md:min-w-2xl">
-		<span class="text-2xl">hi 👋, I am Dmitry Pshennikov, self-taught developer from Russia.</span>
+		<span class="text-2xl">hi 👋, I am Dmitry, self-taught developer from Russia.</span>
 
 		<section class="mt-4 mb-4 flex flex-col gap-2">
 			<a class="text-2xl text-purple-200" href="#contacts" id="contacts"># contacts</a>

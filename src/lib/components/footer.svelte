@@ -1,4 +1,4 @@
-<footer class="flex w-screen flex-col items-center justify-center bg-purple-900 p-4">
+<footer class="flex flex-col items-center justify-center bg-purple-900 p-4">
 	<div class="flex flex-col items-start justify-center sm:min-w-0 sm:text-sm">
 		<span>idk what to put in the copyright notice, not a lawyer btw</span>
 		<div>
